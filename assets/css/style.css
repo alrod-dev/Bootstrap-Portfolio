@@ -621,6 +621,14 @@ footer {
     }
 }
 
+/*
+    Animations
+ */
+
+/*
+    Makes the body of the web pages to slowly become noticeable after a couple of seconds
+ */
+
 .row {
     -webkit-animation-name: opacityExample; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
