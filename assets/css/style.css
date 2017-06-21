@@ -1,0 +1,388 @@
+/*
+    Global Page Settings
+ */
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url('../images/dark-triangles.png');
+
+}
+
+/*
+    Global Changes
+ */
+.container-fluid {
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Header
+ */
+
+#mainNav {
+    background: white;
+    color: #777777;
+    padding-top: 10px;
+    min-height: 70px;
+
+    border-bottom: #cbcbcb 3px solid;
+
+    position: fixed;
+    width: 100%;
+
+    margin-bottom: 40px;
+
+    z-index: 5;
+}
+
+#mainNav a {
+    color: #777777;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#mainNav li {
+
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+    border-right: #666666 1px solid;
+}
+
+#mainNav #brandName {
+    float: left;
+    margin-left: auto;
+
+}
+
+#mainNav #brandName h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+
+    background: #4aaaa5;
+
+
+    padding: 20px;
+}
+
+#mainNav ul
+{
+    float: right;
+    margin-top: 35px;
+}
+
+#mainNav .current, #mainNav a:hover {
+    color: #666666;
+    font-weight: bold;
+}
+
+/*
+    Main Section
+ */
+
+/*
+    About Me Box | ABOUT PAGE
+ */
+
+#aboutMeBox {
+    float: left;
+    border: #bebebe 1px solid;
+
+    margin-top: 15%;
+
+    width: 60%;
+    height: auto;
+
+    padding: 20px;
+    background: white;
+
+    overflow: hidden;
+}
+
+#aboutMeBox #pic {
+
+    float: left;
+    text-align: left;
+    width: 250px;
+    height: 300px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#aboutMeBox h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #4aaaa5;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#aboutMeBox p {
+    text-align: justify;
+    font-size: 20px;
+
+    margin-left: 20px;
+}
+
+#aboutMeBox #p1 {
+    margin-bottom: 40px;
+}
+
+
+#aboutMeBox hr
+{
+    color: #bebebe;
+    background: #bebebe;
+
+    height: 3px;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+/*
+    Sidebar Box and Links
+ */
+#sidebar {
+    float: right;
+
+    width: 35%;
+    height: auto;
+
+    padding: 10px;
+    background: white;
+
+    border: #bebebe 1px solid;
+
+    margin-top: 15%;
+    margin-right: auto;
+}
+
+
+
+#sidebar h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #4aaaa5;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#sidebar .links {
+    float: left;
+    text-align: center;
+    padding: 2px;
+    width: 30%;
+
+    margin: 10px 10px 10px 0;
+}
+
+#sidebar .links img {
+    width: 75px;
+    height: 75px;
+
+    box-shadow: 10px 10px 5px #888888;
+
+    border-radius: 9px;
+    border: 1px solid black;
+
+}
+
+#sidebar hr
+{
+    color: #bebebe;
+    background: #bebebe;
+    height: 1px;
+    border: 0;
+
+    margin-bottom: 20px;
+    margin-left: 0;
+
+    width: 95%;
+}
+
+/*
+    Footer
+ */
+footer {
+    background: #666666;
+    padding: 30px;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    margin-top: 80px;
+
+    color: #777777;
+    text-align: center;
+
+    border-top: #4aaaa5 9px solid;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .container-fluid
+    {
+        width: 100%;
+    }
+
+    header
+    {
+        width: 100%;
+    }
+
+    header nav
+    {
+        float: left;
+    }
+
+    header #brandName {
+        margin: auto;
+    }
+
+    #sidebar
+    {
+        float: left;
+        position: relative;
+        width: 80%;
+
+        left: 10%;
+        right: 10%;
+
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #aboutMeBox
+    {
+        position: relative;
+        width: 80%;
+
+        left: 10%;
+        right: 10%;
+
+        margin-bottom: 10px;
+    }
+
+    #aboutMeBox h1
+    {
+        font-size: 30px;
+    }
+
+    #aboutMeBox #pic
+    {
+        width: 200px;
+        height: 250px;
+    }
+
+    #aboutMeBox #p1
+    {
+        font-size: 18px;
+    }
+
+    #aboutMeBox #p2
+    {
+        font-size: 18px;
+    }
+
+    #portfolioBox
+    {
+        position: relative;
+        width: 80%;
+
+        left: 8%;
+
+        margin-bottom: 10px;
+    }
+
+    #contactForm
+    {
+        position: relative;
+        width: 80%;
+
+        left: 8%;
+
+        margin-bottom: 10px;
+    }
+
+    footer
+    {
+        position: relative;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    header #brandName
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    header #brandName h1
+    {
+        font-size: 30px;
+    }
+
+    header
+    {
+        padding-top: 0;
+    }
+
+    header nav
+    {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    header li {
+        padding: 0 65px 0 60px;
+        border: 0;
+    }
+
+    #aboutMeBox
+    {
+        margin-top: 10%;
+    }
+
+    #portfolioBox
+    {
+        margin-top: 10%;
+    }
+
+    .portfolioPics
+    {
+        width: 80%;
+    }
+
+    .portfolioPics h3
+    {
+        width: 93%;
+    }
+
+    #contactForm
+    {
+        margin-top: 10%;
+    }
+}
