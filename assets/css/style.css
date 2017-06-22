@@ -27,6 +27,7 @@ ul {
     padding: 0;
 }
 
+
 /*
     Header
  */
@@ -55,7 +56,6 @@ ul {
 }
 
 #mainNav li {
-
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
@@ -100,7 +100,11 @@ ul {
 #sidebar {
     float: right;
     position: absolute;
-    width: 20%;
+
+    top: 19%;
+    right: 9%;
+
+    width: 30%;
     height: auto;
 
     padding: 10px;
@@ -108,11 +112,8 @@ ul {
 
     border: #bebebe 1px solid;
 
-    top: 151px;
-    right: 23%;
+    margin: auto;
 
-    margin-top: auto;
-    margin-right: auto;
 }
 
 
@@ -166,12 +167,12 @@ ul {
 
 #aboutMeBox {
     float: left;
-    position: relative;
+
+
     border: #bebebe 1px solid;
 
     margin-top: 15%;
     margin-bottom: 8%;
-
 
     width: 60%;
     height: auto;
@@ -182,6 +183,8 @@ ul {
     background: white;
 
     overflow: hidden;
+
+    clear: both;
 }
 
 #aboutMeBox #pic {
