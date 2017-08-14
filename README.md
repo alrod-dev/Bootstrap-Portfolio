@@ -1,4 +1,4 @@
-<h1 align="center">Responsive-Portfolio</h1>
+<h1 align="center">Bootstrap-Portfolio</h1>
 
 <p style="text-align: center">
     <img src="assets/images/mainPage.png" width="100%">
